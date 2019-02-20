@@ -4,7 +4,9 @@
   padding: 0;
 }
 html, body {
+	overflow-x: hidden;
   height: 100%;
+  width: 100%;
 }
 section {
   position: relative;
@@ -83,9 +85,10 @@ section h1 {
 }
 
 #section01 aa {
-	bottom: -1%;
+	position: absolute;
+	bottom: 0;
   padding-top: 15px;
-    left: 46%;
+    left: 0;
 }
 #section01 aa span {
   position: absolute;
@@ -132,7 +135,10 @@ section h1 {
 
 #section01 a {
   padding-top: 70px;
-    left: 46%;
+    margin: auto;
+  position: absolute;
+ text-align: center;
+  left: 10%; right: 10%;
 }
 #section01 a span {
   position: absolute;
@@ -547,8 +553,10 @@ section h1 {
 
 
 #section10 a {
-  padding-top: 70px;
-  left: 42%;
+    margin: auto;
+  position: absolute;
+ text-align: center;
+  left: 10%; right: 10%;
 }
 #section10 a span {
   position: absolute;
