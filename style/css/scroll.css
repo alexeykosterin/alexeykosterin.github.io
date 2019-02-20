@@ -84,9 +84,9 @@ section h1 {
 
 #section01 aa {
 	position: absolute;
-	bottom: 0;
+	bottom: 30px;
   padding-top: 15px;
-    left: 0;
+    left: 10px;
 }
 #section01 aa span {
   position: absolute;
