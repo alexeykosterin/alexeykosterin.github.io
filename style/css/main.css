@@ -533,7 +533,7 @@ body.light .switch-wrap p span:nth-child(1):before {
 .link-to-portfolio {
 	  position: fixed;
     bottom: 40px;
-    right: 50px;
+    right: 40px;
     z-index: 200;
     cursor: pointer;
     width: 50px;
