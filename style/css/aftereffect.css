@@ -105,7 +105,7 @@ figure.effect-kira figcaption::before {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,4em,0) scale3d(1,0.023,1) ;
-	transform: translate3d(0,4em,0) scale3d(1,0.023,1);
+	transform: translate3d(0,4em,0) scale3d(2,0.023,1);
 	-webkit-transform-origin: 50% 0;
 	transform-origin: 50% 0;
 }
