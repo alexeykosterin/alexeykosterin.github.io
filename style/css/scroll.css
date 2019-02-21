@@ -34,7 +34,7 @@ section h1 {
   white-space: nowrap;
 }
 
-#section01 { background: url(img/Barbershop7.jpg) center center / cover no-repeat;}
+#section01 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop7.jpg) center center / cover no-repeat;}
 #section02 { background: url(https://picsum.photos/1200/800?image=1016) center center / cover no-repeat;}
 #section03 { background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;}
 #section04 { background: url(https://picsum.photos/1200/800?image=506) center center / cover no-repeat;}
