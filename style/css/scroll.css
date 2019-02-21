@@ -600,3 +600,18 @@ width: 10%;
   }
 }
 
+#section01 but {
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  left: 10%; right: 10%;
+  top:10%;
+}
+
+.demo but {
+  position: absolute;
+  left: 50%;
+  color: #000000;
+  text-align: center;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+}
