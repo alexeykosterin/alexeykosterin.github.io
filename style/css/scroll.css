@@ -136,7 +136,9 @@ section h1 {
     margin: auto;
   position: absolute;
  text-align: center;
-  left: 10%; right: 10%;
+left: 10%; 
+right: 10%;
+width: 10%;
 }
 #section01 a span {
   position: absolute;
