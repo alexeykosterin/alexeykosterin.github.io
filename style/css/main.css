@@ -793,9 +793,11 @@ nav.shift ul li a:hover:after {
   }
 }
 
-over_section {
-background: #34495e; 
-color: rgba(255, 255, 255, 0.5); 
-background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg'); 
-background-size: 4%	
+.butt {
+    position: absolute;
+    top: 90%;
+    width: 90%;
+	height: 60%;
+background-color: transparent;
+border:1px solid #000;
 }
