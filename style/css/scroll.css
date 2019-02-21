@@ -611,7 +611,8 @@ width: 10%;
 .demo but {
   position: absolute;
   left: 50%;
-  color: #fff;
+  color: #000;
+  text-shadow: #fff 0 0 2px;
   text-align: center;
   font : normal 400 20px/1 'Josefin Sans', sans-serif;
 }
