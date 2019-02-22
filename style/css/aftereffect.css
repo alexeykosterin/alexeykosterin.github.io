@@ -156,7 +156,8 @@ figure.effect-apollo p {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	margin: 3em;
+	margin-left: 7.5em;
+	margin-top: 5.2em;
 	padding: 0 1em;
 	max-width: 150px;
 	border-right: 4px solid #fff;
