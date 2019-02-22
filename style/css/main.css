@@ -801,3 +801,12 @@ nav.shift ul li a:hover:after {
 background-color: transparent;
 border:1px solid #000;
 }
+
+
+.Absolute-Center-sec2
+{
+  margin: auto;
+  position: absolute;
+  top: 20%; left: 20%; bottom: 20%; right: 20%;
+overflow-x:hidden;
+}
