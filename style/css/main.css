@@ -694,7 +694,7 @@ nav.circle ul li a {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  z-index: 1;
+  z-index: 4;
 }
 nav.circle ul li a:after {
   display: block;
