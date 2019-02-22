@@ -807,7 +807,7 @@ border:1px solid #000;
 {
   margin: auto;
   position: absolute;
-  top: 20%; left: 20%; bottom: 20%; right: 20%;
+  top: 25%; left: 20%; bottom: 15%; right: 20%;
 overflow-x:hidden;
 z-index: 3;
 }
