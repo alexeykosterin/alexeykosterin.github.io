@@ -280,6 +280,21 @@ width: 10%;
 #section04 a {
   padding-top: 70px;
 }
+
+#section04 aa {
+    position: absolute;
+    margin: auto;
+    width: 230px;
+    top: 55%;
+    left: 20%;
+    bottom: 38%;
+    right: 20%;
+    padding-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 #section04 a span {
   position: absolute;
   top: 0;
