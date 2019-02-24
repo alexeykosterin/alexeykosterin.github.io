@@ -37,9 +37,9 @@ section h1 {
 #section01 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop71.jpg) center center / cover no-repeat;}
 #section02 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop12.jpg) center center / cover no-repeat;}
 #section03 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop10.jpg) center center / cover no-repeat;}
-#section04 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop61.jpg) center center / cover no-repeat;}
-#section05 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/180.jpg) center center / cover no-repeat;}
-#section06 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/179.jpg) center center / cover no-repeat;}
+#section04 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/179.jpg) center center / cover no-repeat;}
+#section05 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop61.jpg) center center / cover no-repeat;}
+#section06 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/180.jpg) center center / cover no-repeat;}
 #section07 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop18.jpg) center center / cover no-repeat;}
 #section08 { background: url(https://picsum.photos/1200/800?image=1050) center center / cover no-repeat;}
 #section09 { background: url(https://picsum.photos/1200/800?image=902) center center / cover no-repeat;}
@@ -281,7 +281,22 @@ width: 10%;
   padding-top: 70px;
 }
 
-#section04 aa {
+#section03 aa {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    height: 10%;
+    top: 55%;
+    left: 12%;
+    bottom: 38%;
+    right: 10%;
+    padding-top: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#section05 aa {
     position: absolute;
     margin: auto;
     width: 230px;
@@ -295,6 +310,8 @@ width: 10%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+
 
 #section04 a span {
   position: absolute;
