@@ -1,0 +1,53 @@
+    [class^="icon-"]:before, [class*=" icon-"]:before {
+      line-height: 1;
+    }
+  	.truck:hover .bttn, * [lang=x-truck]:hover * [lang=x-bttn], .dropbox:hover .bttn, * [lang=x-drop]:hover * [lang=x-bttn] {
+        background-color:#198db8 !important;
+    }
+    @media screen and (min-width: 641px) {
+      .container {
+        width: 640px!important;
+      }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .noWebkit {
+        display:none !important;
+    }
+    .icon {
+        width:100% !important;
+        height:inherit !important;
+        line-height:inherit !important;
+        font-size:18px !important;
+        float:none !important;
+        clear:both !important;
+        display:block !important;
+        margin:0 auto !important;
+        padding-top:20px;
+      }
+      .fa {
+        width:100% !important;
+        display:block !important;
+        -webkit-transform-style: preserve-3d;
+      }
+      .truck:hover .fa-truck {
+        color:#c1baac !important;
+        -webkit-animation: toLeftFromRight .6s;
+      }
+      @-webkit-keyframes toLeftFromRight {
+        50% {
+          -webkit-transform: translate(-240px);
+        }
+          51% {
+          	-webkit-transform: translate(240px);
+        }
+      }
+      .dropbox:hover .fa-dropbox {
+        color:#c1baac !important;
+        -webkit-animation: bounce .6s cubic-bezier(.63,.09,.75,.46) infinite alternate;
+      }
+      @keyframes bounce {
+        100% {
+          transform: translateY(5px) scaleX(1.2); 
+        }
+      }
+    }
