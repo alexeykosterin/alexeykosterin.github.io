@@ -51,3 +51,218 @@
         }
       }
     }
+	
+html, body {
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+  margin: 1.3px 1.3px 1.3px 1.3px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border : 0px solid #fff;
+  background: #fff;
+  cursor: pointer;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  transition: all .5s;
+}
+.image img {
+  max-width: 100%;
+}
+.caption {
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(0,0,0,.8);
+  z-index: 2;
+  font-weight: 300;
+  transition: all .5s;
+}
+.caption-num1 {
+  position: relative;
+  height: 60px;
+  padding: none;
+  transform: rotate(45deg) translateY(-280px) translateX(-50%);
+}
+.bottom {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  right: 0;
+}
+.image-container-num1:hover .caption-num1 {
+  transform: rotate(45deg) translateY(-300px) translateX(-50%)
+}
+.caption-num2 {
+  transform: translateY(140px);
+}
+.image-container-num2:hover .image-num2 {
+  opacity: .8;
+  transform: translateY(-50%) translateY(0px);
+}
+.image-container-num2:hover .caption-num2 {
+  transform: translateY(-37px);
+}
+.image-num3 img {
+  max-width: none;
+  max-height: 100%;
+}
+.image-num3 {
+  direction: rtl;
+}
+.caption-num3 {
+  opacity: 0;
+  width: 300px;
+  text-align:right;
+  padding-right: 14px;
+  transform: translateY(-100%);
+}
+.image-container-num3:hover .image-num3 {
+  transform: translateX(50%);
+}
+.image-container-num3:hover .caption-num3 {
+  opacity: 1;
+  transform: translateY(-100%) translateX(-114px);
+}
+.image-container-num4:hover .image-num4 {
+  transform: scale(1.5) rotate(-10deg);
+}
+.image-container-num4:hover .caption-num4 {
+  transform: translateY(-100%);
+}
+.image-num5 img {
+  max-width: none;
+  transform: translateY(-50px) translateX(-50px);
+}
+.caption-num5 {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.image-container-num5:hover .image-num5 {
+  transform: rotate(45deg);
+}
+.image-container-num5:hover .caption-num5 {
+  opacity: 1;
+}
+.caption-num6 {
+  transform: translateY(-300px) translateY(-100%);
+}
+.image-container-num6:hover .caption-num6 {
+  transform: translateY(-300px);
+}
+.image-container-num6:hover .image-num6 {
+  opacity: .5;
+}
+.caption-num7 {
+  height: 400px;
+  background: none;
+  color: #333;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.img-style{
+background-color:#8167a9;
+color:#fffffe;
+display:inline-block;
+font-family: Verdana, Geneva, sans-serif;
+text-transform:uppercase;
+font-size:12px;
+line-height:43px;
+text-align:center;
+text-decoration:none;
+width:150px;
+-webkit-text-size-adjust:none;
+text-transform:uppercase;	
+}
+
+.image-container-num7:hover .caption-num7 {
+  opacity: 1;
+  transform: translateY(-75%);
+}
+.image-container-num7:hover .image-num7 {
+  transform: scale(1.5);
+  opacity: .15;
+}
+.break {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .image-container {
+    margin: 30px;
+    outline: solid 2px #eee;
+  }
+  .break {
+    display: initial;
+  }
+}
+
+
+figure.effect-apollo {
+	background: #3498db;
+}
+
+figure.effect-apollo img {
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-apollo figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+figure.effect-apollo p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 3em;
+	padding: 0 1em;
+	max-width: 150px;
+	border-right: 4px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-apollo h2 {
+	text-align: left;
+}
+
+figure.effect-apollo:hover img {
+	opacity: 0.6;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+figure.effect-apollo:hover p {
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
