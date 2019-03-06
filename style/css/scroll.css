@@ -23,27 +23,27 @@ section::after {
 }
 section h1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 10%;
+  left: 47%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #fff;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  color: #fff5f5; text-shadow: black 0 0 4px;
+  font : normal 300 20px/1 'Nanum Gothic', sans-serif;
   text-align: center;
   white-space: nowrap;
 }
 
-#section01 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop71.jpg) center center / cover no-repeat;}
-#section02 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop12.jpg) center center / cover no-repeat;}
-#section03 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop10.jpg) center center / cover no-repeat;}
-#section04 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/179.jpg) center center / cover no-repeat;}
-#section05 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop61.jpg) center center / cover no-repeat;}
-#section06 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/180.jpg) center center / cover no-repeat;}
-#section07 { background: url(https://raw.githubusercontent.com/alexeykosterin/alexeykosterin.github.io/master/style/img/Barbershop18.jpg) center center / cover no-repeat;}
+#section01 { background: url(http://customhair.ru/img/Barbershop71.jpg) center center / cover no-repeat;}
+#section02 { background: url(http://customhair.ru/img/Barbershop12.jpg) center center / cover no-repeat;}
+#section03 { background: url(http://customhair.ru/img/Barbershop10.jpg) center center / cover no-repeat;}
+#section04 { background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-237714.jpg) center center / cover no-repeat;}
+#section05 { background: url(http://customhair.ru/img/Barbershop61.jpg) center center / cover no-repeat;}
+#section06 { background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-269781.jpg) center center / cover no-repeat;}
+#section07 { background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-747190.jpg) center center / cover no-repeat;}
 #section08 { background: url(https://picsum.photos/1200/800?image=1050) center center / cover no-repeat;}
 #section09 { background: url(https://picsum.photos/1200/800?image=902) center center / cover no-repeat;}
-#section10 { background: url(https://picsum.photos/1200/800?image=516) center center / cover no-repeat;}
+#section10 { background: url(http://customhair.ru/img/Barbershop11.jpg) center center / cover no-repeat;}
 
 .demo a {
   position: absolute;
@@ -54,7 +54,7 @@ section h1 {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  font : normal 400 20px/1 'Nanum Gothic', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
@@ -73,7 +73,7 @@ section h1 {
   display: inline-block;
 
   color: #fff;
-  font : normal 400 15px/1 'Josefin Sans', sans-serif;
+  font : normal 400 15px/1 'Nanum Gothic', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
@@ -85,7 +85,6 @@ section h1 {
 #section01 aa {
 	position: absolute;
 	bottom: 30px;
-  padding-top: 15px;
     left: 10px;
 }
 #section01 aa span {
@@ -284,7 +283,7 @@ width: 10%;
 #section03 aa {
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 260px;
     left: 12%;
     bottom: 20%;
     right: 10%;
@@ -305,7 +304,17 @@ width: 10%;
     text-overflow: ellipsis;
 }
 
-
+#section07 aa {
+    position: absolute;
+    margin: auto;
+    left: 20%;
+    bottom: 28%;
+    right: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	border: 0;
+}
 
 #section04 a span {
   position: absolute;
@@ -442,7 +451,7 @@ width: 10%;
 
 
 #section07 a {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 #section07 a span {
   position: absolute;
@@ -585,6 +594,40 @@ width: 10%;
  text-align: center;
   left: 10%; right: 10%; bottom: 5%;
 }
+
+#section10 butt {
+  margin: auto;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.demo butt {
+padding: 3px;
+  text-shadow: -1px -1px #FFF,
+               -2px -2px #FFF,
+               -1px 1px #FFF,
+               -2px 2px #FFF,
+               1px 1px #FFF,
+               2px 2px #FFF,
+               1px -1px #FFF,
+               2px -2px #FFF,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: 420057;
+  transition: all 1s;
+  text-align: center;
+  font : normal 400 20px/1 'Nanum Gothic', sans-serif;
+}
+
+
+
+.demo butt:hover {
+    color: navy;
+    }
+
+
 #section10 a span {
   position: absolute;
   top: 0;
@@ -641,7 +684,7 @@ width: 10%;
   color: #000;
   text-shadow: #fff 0 0 2px;
   text-align: center;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  font : normal 400 20px/1 'Nanum Gothic', sans-serif;
 }
 
 
