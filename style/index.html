@@ -132,18 +132,18 @@ position: absolute;
 					</button>
 				</div>
 				<div class="modal-body">
-					<form id="contactForm" action="mailto: alexey_kosterin@mail.ru" method="post">
+					<form id="contactForm" action="mailer/handler.php" method="post">
 						<div class="form-group">
 							<label for="name">Ваше имя:</label>
 							<input id="name" class="form-control" name="name" required type="text" placeholder="Ваше имя">
 						</div>
 						<div class="form-group">
 							<label for="email">Ваш E-mail:</label>
-							<input id="email" class="form-control" name="email" required type="email" placeholder="ivanov@email.com">
+							<input id="email" class="form-control" name="email" required type="email" placeholder="email@email.com">
 						</div>
 						<div class="form-group">
 							<label for="phone">Ваш телефон:</label>
-							<input id="phone" class="form-control" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
+							<input id="phone" class="form-control" name="phone" required type="text" placeholder="89XXXXXXXXX">
 						</div>
 						<div class="form-group">
 							<label for="message">Текст сообщения:</label>
@@ -153,7 +153,7 @@ position: absolute;
 							<input id="check" class="form-check-input" checked type="checkbox">
 							<label class="form-check-label" for="check">Я добровольно отправляю свои данные</label>
 						</div>
-                        <div class="g-recaptcha" data-sitekey="6LcwppIUAAAAAGFMa5QApGgXB0UIf7dLEbDwXiLS"></div>
+                        <div class="g-recaptcha" data-sitekey="6LcKgZQUAAAAACt4Ca4Wt2GypO8UswnQzGH6nIXc"></div>
 						<button id="button" class="btn btn-success" type="submit">Отправить</button>
 						<div class="result">
 							<span id="answer"></span>
@@ -172,13 +172,14 @@ position: absolute;
 
 
 
-      <!--<p><span style="padding-right:3px; padding-top: 3px; display:inline-block;"><img src="img/1.jpg"></img>здесь вы можете приобрести мёд с частной пасеки Алтайского края</span></p>-->
+
 
 <div class="row Absolute-Center-pik">
-    <div class="col-sm-4">
+
+    <div class="col-md-6 col-lg-4">
       <div class="grid">
 					<figure class="effect-kira">
-						<img src="img/Barbershop2.jpg"/>
+						<img src="img/Barbershop22.jpg"/>
 						<figcaption>
 							<p>
 								<button style="color: #1E90FF" class="butt" onclick="document.location='//http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>'"><i class="fab fa-vk"></i></button><but target="blank">-10% за репост</but>
@@ -187,22 +188,22 @@ position: absolute;
 					</figure>
 				</div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-6 col-lg-4">
       <div class="grid">
 					<figure class="effect-kira">
-						<img src="img/Barbershop3.jpg"/>
+						<img src="img/Barbershop32.jpg"/>
 						<figcaption>
 							<p>
-								<button class="butt" onclick="document.location='location.html'">ПОДРОБНЕЕ</button><but target="blank">Подарочный сертификат</but>
+								<button class="butt" onclick="document.location='#section07'">ПОДРОБНЕЕ</button><but target="blank" style="right: -10%; left: -5%;">Подарочные сертификаты</but>
 							</p>
 						</figcaption>
 					</figure>
 				</div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-6 col-lg-4">
       <div class="grid">
 					<figure class="effect-kira">
-						<img src="img/Barbershop21.jpg"/>
+						<img src="img/Barbershop212.jpg"/>
 						<figcaption>
 							<p>
 								<button style="color: #1E90FF" class="butt" onclick="document.location='//http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>'"><i class="fab fa-vk"></i></button><but target="blank">-5% за репост</but>
@@ -211,7 +212,9 @@ position: absolute;
 					</figure>
 				</div>
     </div>
+
   </div>
+
 </div>
 
 
@@ -220,7 +223,7 @@ position: absolute;
 	<nav class="circle">
     <ul>
       <li><a href="javascript:scroll(0,0)">ДОМОЙ</a></li>
-      <li><a href="#section02">Продукция TIGI</a></li>
+      <li><a href="tigi.html">Продукция TIGI</a></li>
     </ul>
   </nav>
 
